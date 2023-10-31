@@ -1,5 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello Word Luiz A Dio.IO");
+﻿using C__BootCamp_Dio;
 
+Pessoa novaPessoa = new()
+{
+    Idade = 35,
+    Nome = "Luiz domingo",
+    SobreNome = "Silva"
+};
 
+novaPessoa.Apresentar();
